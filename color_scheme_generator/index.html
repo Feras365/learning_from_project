@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Orbitron:wght@400..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <main class="main-content">
+            <form class="color-form" id ="form-ele">
+                <label for="color"></label>
+                <input type="color" aria-label="Choose a color" id="seed-color" name="color">
+                <select aria-label="Choose color scheme" class="select-option" name="mode" >
+                    <option value="monochrome-dark">Monochrome-dark</option>
+                    <option value="monochrome-light">Monochrome-light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic-complement</option>
+                    <option value="triad">Triad</option>
+                </select>
+                <button id="select-btn" type="submit">Get color scheme</button>
+             </form>
+              <section id ="palete-color">
+                    <!-- colors fetched-->
+                </section>
+             </main>
+                
+        <script src="index.js"></script>
+    </body>
+</html>
